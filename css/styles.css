@@ -1,0 +1,43 @@
+.graph_box {
+  margin-bottom: 20px
+}
+.graph_box_wrap {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.white:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50% 50%;
+}
+
+.graph_box_percent {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  font-size: .8rem;
+  font-weight: bold;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.graph_box_percent span {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
