@@ -1,5 +1,25 @@
+/* Navigation */
+.navbar > .container {
+  display: inline;
+}
+
+/* header */
+header.masthead {
+  position: relative;
+}
+header.masthead::before{
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+
+/* skills */
 .graph_box {
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .graph_box_wrap {
   position: relative;
