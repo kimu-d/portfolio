@@ -16,6 +16,14 @@ header.masthead::before{
   left: 0;
   content: '';
 }
+header .intro-text {
+  position: relative;
+}
+header.masthead .intro-text .intro-heading {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 50px;
+}
 
 /* skills */
 .graph_box {
