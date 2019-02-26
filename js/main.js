@@ -12,7 +12,7 @@ function drawDoughnut(name, percent) {
   context.beginPath();
   context.arc(50, 50, 50, (0 - 90) * Math.PI / 180, (angleA - 90) * Math.PI / 180, false);
   context.lineTo(50, 50);
-  context.fillStyle = "#16a4b4";
+  context.fillStyle = "#fed136";
   context.fill();
 
   context.beginPath();
@@ -34,46 +34,3 @@ for (var i = 0; i < match_graph.length; i++) {
   percent_num[0].textContent = yearExpr;
   drawDoughnut(name,percent);
 }
-
-//
-//
-// if ($('#html-css').length) {
-//
-//   var doughnutData = [{
-//       value: 70,
-//       color: "#74cfae"
-//     },
-//     {
-//       value: 30,
-//       color: "#3c3c3c"
-//     }
-//   ];
-//   var myDoughnut = new Chart(document.getElementById("html-css").getContext("2d")).Doughnut(doughnutData);
-// };
-//
-// if ($('#js').length) {
-//   var doughnutData = [{
-//       value: 60,
-//       color: "#74cfae"
-//     },
-//     {
-//       value: 40,
-//       color: "#3c3c3c"
-//     }
-//   ];
-//   var myDoughnut = new Chart(document.getElementById("js").getContext("2d")).Doughnut(doughnutData);
-// }
-//
-// // WordPress Chart
-// if ($('#php').length) {
-//   var doughnutData = [{
-//       value: 55,
-//       color: "#74cfae"
-//     },
-//     {
-//       value: 45,
-//       color: "#3c3c3c"
-//     }
-//   ];
-//   var myDoughnut = new Chart(document.getElementById("php").getContext("2d")).Doughnut(doughnutData);
-// }
